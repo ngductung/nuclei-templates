@@ -1,0 +1,27 @@
+id: UnAuth-phpMyAdmin
+
+info:
+  name: Template Name
+  author: Anonymous
+  severity: critical
+  description: description
+  reference:
+    - https://
+  tags: tags
+
+http:
+  - raw:
+      - |+
+        GET /pma/index.php HTTP/1.1
+        Host: {{Hostname}}
+
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - phpMyAdmin
+      - type: status
+        status:
+          - 200
