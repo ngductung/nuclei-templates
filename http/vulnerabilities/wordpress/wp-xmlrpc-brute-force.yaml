@@ -10,7 +10,7 @@ info:
     - https://www.acunetix.com/vulnerabilities/web/wordpress-xml-rpc-authentication-brute-force/
   metadata:
     max-request: 276
-  tags: wordpress,php,xmlrpc,brute-force
+  tags: wordpress,php,xmlrpc,fuzz
 
 http:
   - raw:
@@ -50,4 +50,4 @@ http:
           - 'xmlrpc'
           - 'isAdmin'
         condition: and
-# digest: 490a0046304402207f26aab2d656d615c6972106a38550f20f88b1733d6922d1b4e8e1c747c170e602203e2c12dcae0766e613ab701da1a0d7e1b60a2b455797a5581a76e2794356ca30:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100edfa1eaae603d4a662ebaa0eaddba9894ee90c4bd3431bcaae13280d7e9c2fa5022027b501e990478aaca56cc4162f495540c80217172b1c28e0b1516864f9913ad8:922c64590222798bb761d5b6d8e72950

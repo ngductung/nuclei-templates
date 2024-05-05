@@ -7,10 +7,14 @@ info:
   description: An Opentwrt admin login page was discovered.
   reference:
     - https://forum.archive.openwrt.org/viewtopic.php?id=16611
+  classification:
+    cpe: cpe:2.3:a:x-wrt:luci:*:*:*:*:*:*:*:*
   metadata:
     max-request: 1
+    product: luci
     shodan-query: http.title:"OpenWrt - LuCI"
-  tags: panel,default-login,openwrt
+    vendor: x-wrt
+  tags: panel,default-login,openwrt,x-wrt
 
 http:
   - method: GET
@@ -24,4 +28,4 @@ http:
           - 'LuCI'
           - 'login'
         condition: and
-# digest: 4a0a0047304502202a60f1f65e6089d7fde3778b789c8b40deb7ca9690a5e20e43ad4ffdfc8ca74a022100bc845885b85a07854fbef91e31ae80f9fcd961df10ce2fe156411a5cccf91980:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a0047304502203eae31d07741c69a8515ef2558d5fabf851dccabdf57995cce1e1d5cb92dc269022100dcb23e53153978f28a9651c501e2c4c0d8466bf75dbf79f8ceb9f48525cc14d0:922c64590222798bb761d5b6d8e72950

@@ -15,7 +15,7 @@ info:
     cwe-id: CWE-200
   metadata:
     max-request: 4
-  tags: brute,edb
+  tags: iis,edb
 
 http:
   - raw:
@@ -44,4 +44,4 @@ http:
       - type: dsl
         dsl:
           - "status_code_1!=404 && status_code_2 == 404 || status_code_3 != 404 && status_code_4 == 404"
-# digest: 4b0a00483046022100af8b26781d61fe7b49d39abf68f2cc15c9a85e63aee163bc0750e6de81d578f4022100a6227fbafc8248d9932b55a80a94e92fc00bc8757898f8d58804433e4342a584:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a0047304502207f1f208de9031454a3413b7b13977ee8f563be5c0ad83771de6897fa56a46c7f022100ab113072a9c2f91610fedd3a50cae51b16e01fca22b04c80bfdd675f86c0e45b:922c64590222798bb761d5b6d8e72950

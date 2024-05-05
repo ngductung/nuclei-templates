@@ -7,7 +7,7 @@ info:
   description: PHP Source File is disclosed to external users.
   metadata:
     max-request: 1512
-  tags: exposure,backup,php,disclosure,brute-force
+  tags: exposure,backup,php,disclosure,fuzz
 
 http:
   - method: GET
@@ -136,4 +136,4 @@ http:
           - "text/plain"
           - "bytes"
         condition: or
-# digest: 4b0a00483046022100d5c87bc30d284fddd251d2456e6cf3d712fe56d48fa4d10d0b543c8df6a4892e022100925f53c62ec9e5babe6bf987dabe94c9542bccc6c23dd3dbc6564a0f755a664a:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022019ff7dd3ceced23dec05a238feaf346674305dde6a4a6613b965cf8d0500acfc02210092bbcbb84d7180e46714712507b6e6b108317250bc01d99b3d8eee50b2d7f393:922c64590222798bb761d5b6d8e72950

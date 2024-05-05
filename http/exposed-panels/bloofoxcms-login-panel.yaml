@@ -4,12 +4,14 @@ info:
   name: bloofoxCMS Login Panel - Detect
   author: theamanrawat
   severity: info
+  classification:
+    cpe: cpe:2.3:a:bloofox:bloofoxcms:*:*:*:*:*:*:*:*
   metadata:
-    verified: "true"
+    fofa-query: Powered by bloofoxCMS
     max-request: 2
-    fofa-query: "Powered by bloofoxCMS"
-    vendor: bloofox
     product: bloofoxcms
+    vendor: bloofox
+    verified: "true"
   tags: panel,bloofox,cms
 
 http:
@@ -37,4 +39,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 490a004630440220433dbaf907e523db64d600163b60af77685f3436395e7811513015250d2527b102203d54dd4e265d07ac7e31bb1c4f2531244c68e65f7cdc203c64d8721cf2478f50:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a0047304502203756982c43b1269b90d14a376c9f0465532699b21984f7be0b087b39eb2a2f38022100a2eded3d7d8c7645fb608e8cb959a8cc08a2139faad81a2173f803ab6728fd96:922c64590222798bb761d5b6d8e72950

@@ -9,7 +9,7 @@ info:
   metadata:
     max-request: 100
     shodan-query: http.title:"GitLab"
-  tags: gitlab,enum,misconfig,brute-force
+  tags: gitlab,enum,misconfig,fuzz
 
 http:
   - raw:
@@ -38,4 +38,4 @@ http:
         part: header
         words:
           - "application/json"
-# digest: 490a004630440220516454fecd095238b0680909c584d24276cdc2923a0c6041adc84bd5049e8fec02204536a4fff408b0c9cbebae22e5e544563a9d2ada2330506adfa06ea7818a5709:922c64590222798bb761d5b6d8e72950
+# digest: 490a0046304402205c9c86f3c046857119bb1a670b24f3214292931dc0fa8f3f2de2a774d270003f0220494fa1162786a29761083cf667b6d9634363502ffaa72629ab5c9ad4ac70494a:922c64590222798bb761d5b6d8e72950

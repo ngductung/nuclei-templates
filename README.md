@@ -40,20 +40,20 @@ An overview of the nuclei template project, including statistics on unique tags,
 
 ## Nuclei Templates Top 10 statistics
 
-|    TAG    | COUNT |    AUTHOR    | COUNT | DIRECTORY  | COUNT | SEVERITY | COUNT | TYPE | COUNT |
-|-----------|-------|--------------|-------|------------|-------|----------|-------|------|-------|
-| cve       |  2365 | dhiyaneshdk  |  1140 | http       |  7022 | info     |  3375 | file |   312 |
-| panel     |  1070 | daffainfo    |   864 | file       |   312 | high     |  1562 | dns  |    21 |
-| wordpress |   947 | dwisiswant0  |   801 | workflows  |   191 | medium   |  1458 |      |       |
-| xss       |   891 | pikpikcu     |   353 | network    |   132 | critical |   950 |      |       |
-| exposure  |   861 | pussycat0x   |   313 | code       |    80 | low      |   257 |      |       |
-| wp-plugin |   822 | ritikchaddha |   303 | ssl        |    27 | unknown  |    35 |      |       |
-| osint     |   678 | pdteam       |   285 | javascript |    26 |          |       |      |       |
-| tech      |   655 | ricardomaia  |   231 | dns        |    18 |          |       |      |       |
-| lfi       |   632 | geeknik      |   227 | headless   |    11 |          |       |      |       |
-| edb       |   598 | theamanrawat |   221 | cloud      |     9 |          |       |      |       |
+|    TAG    | COUNT |    AUTHOR     | COUNT | DIRECTORY  | COUNT | SEVERITY | COUNT | TYPE | COUNT |
+|-----------|-------|---------------|-------|------------|-------|----------|-------|------|-------|
+| cve       |  2435 | dhiyaneshdk   |  1262 | http       |  7355 | info     |  3645 | file |   337 |
+| panel     |  1123 | daffainfo     |   864 | file       |   337 | high     |  1686 | dns  |    25 |
+| wordpress |   962 | dwisiswant0   |   803 | workflows  |   191 | medium   |  1503 |      |       |
+| exposure  |   901 | pikpikcu      |   353 | network    |   136 | critical |  1009 |      |       |
+| xss       |   895 | pussycat0x    |   349 | cloud      |    98 | low      |   265 |      |       |
+| wp-plugin |   837 | ritikchaddha  |   326 | code       |    81 | unknown  |    38 |      |       |
+| osint     |   804 | pdteam        |   297 | javascript |    56 |          |       |      |       |
+| tech      |   674 | princechaddha |   260 | ssl        |    29 |          |       |      |       |
+| lfi       |   647 | ricardomaia   |   232 | dns        |    22 |          |       |      |       |
+| misconfig |   602 | geeknik       |   230 | dast       |    21 |          |       |      |       |
 
-**555 directories, 8111 files**.
+**633 directories, 8625 files**.
 
 </td>
 </tr>

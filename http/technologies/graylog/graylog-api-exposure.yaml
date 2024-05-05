@@ -13,7 +13,7 @@ info:
     verified: true
     max-request: 50
     shodan-query: Graylog
-  tags: tech,graylog,api,swagger,brute-force
+  tags: tech,graylog,api,swagger,fuzz
 
 http:
   - method: GET
@@ -88,4 +88,4 @@ http:
           - "status_code == 401"
           - "contains(header, 'X-Graylog-Node-Id') || contains(header, 'Graylog Server')"
         condition: and
-# digest: 4a0a0047304502204ef3dc7bd994a810d3bd3cc90568181fbb273a3a9bf816ad922bd8a055bb2865022100e67f37cf311c6683c3f760672cf4368f79654e2bcbce83991f9d4eb153c63a3f:922c64590222798bb761d5b6d8e72950
+# digest: 4b0a00483046022100cfdfa42b1d6eceea7948a44eebd55448c0553992200628d09080452422232dd7022100a11fdf4e1c293d3669c0923ed6177f2192e0ac22ff1af23651878299747ad7e4:922c64590222798bb761d5b6d8e72950

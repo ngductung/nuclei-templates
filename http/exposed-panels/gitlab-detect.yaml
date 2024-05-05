@@ -7,13 +7,13 @@ info:
   description: Gitlab login panel was detected.
   classification:
     cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
-    cvss-score: 0
     cwe-id: CWE-200
+    cpe: cpe:2.3:a:gitlab:gitlab:*:*:*:*:community:*:*:*
   metadata:
     max-request: 1
+    product: gitlab
     shodan-query: http.title:"GitLab"
     vendor: gitlab
-    product: gitlab
   tags: panel,gitlab
 
 http:
@@ -35,4 +35,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a004730450220356ab4fb0aaf16662940a0d45d37e4c966b1dca3547acf7e5588f3fea008e334022100ffa84469bd40b2479bd5bf0b32cf546fc97923a3c72f5059ce9186c675288ef4:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100d56a92dde2aacda701c500b2de34069d556cd1fdc051721b14af032e284b693402207b0942e665c7d497fca1f70f6b0bf6e9c686b1e2d976816d88facae679e1f7aa:922c64590222798bb761d5b6d8e72950

@@ -4,13 +4,15 @@ info:
   name: Appsuite Login Panel - Detect
   author: DhiyaneshDK
   severity: info
+  classification:
+    cpe: cpe:2.3:a:open-xchange:open-xchange_appsuite:*:*:*:*:*:*:*:*
   metadata:
-    verified: true
     max-request: 1
+    product: open-xchange_appsuite
     shodan-query: html:"Appsuite"
     vendor: open-xchange
-    product: open-xchange_appsuite
-  tags: panel,appsuite,detect
+    verified: true
+  tags: panel,appsuite,detect,open-xchange
 
 http:
   - method: GET
@@ -32,4 +34,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4a0a00473045022100933a3092c8d97928f582f1d35446b4eb30d0059a1b4877efa1008155f1664ad6022049a1dbce0aa57bd5dde7278e807d99ee9504bd859e9ec6ff1ca342f7602a291f:922c64590222798bb761d5b6d8e72950
+# digest: 490a004630440220357235264a8080fbb79afab06fc6d88dfbf974dfc4e18971f90ba1f8a3a81e6e02203cf71150238153cc7029218157a44a4a7717a9b4b9cba32f4b45db904cfbe5d1:922c64590222798bb761d5b6d8e72950

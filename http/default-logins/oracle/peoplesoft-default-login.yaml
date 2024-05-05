@@ -16,7 +16,7 @@ info:
     verified: true
     max-request: 200
     shodan-query: title:"Oracle PeopleSoft Sign-in"
-  tags: default-login,peoplesoft,oracle,brute-force
+  tags: default-login,peoplesoft,oracle,fuzz
 
 http:
   - method: POST
@@ -82,4 +82,4 @@ http:
       - type: status
         status:
           - 302
-# digest: 490a00463044022001053612a1e2aeb36d3a416ba403ddcfec9fb9051d7dccdf132e5486ffe993850220756c4dd885f2304bdb1b70998ad7b17e21691323e3cc860380dfb5156a47c14a:922c64590222798bb761d5b6d8e72950
+# digest: 490a00463044022021caed0d7676a38577b2c3d3b6a6549f5bcb9942d4b96265587f639ae486006502203ec6b9e3cce73f65f0aaffe2ae6ea2835d44c5431bd579f08d3fe2450ccedb74:922c64590222798bb761d5b6d8e72950

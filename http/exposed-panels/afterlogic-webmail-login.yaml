@@ -7,13 +7,13 @@ info:
   description: AfterLogic WebMail Login panel was detected.
   classification:
     cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
-    cvss-score: 0
     cwe-id: CWE-200
+    cpe: cpe:2.3:a:afterlogic:aurora:*:*:*:*:*:*:*:*
   metadata:
+    fofa-query: 'X-Server: AfterlogicDAVServer'
     max-request: 1
-    fofa-query: "X-Server: AfterlogicDAVServer"
-    vendor: afterlogic
     product: aurora
+    vendor: afterlogic
   tags: panel,afterlogic,login,detect
 
 http:
@@ -34,4 +34,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100b1c3b424b2f72a762bc87c254dfe89c3d372439f8f9b4896b54d044008496f36022100c844b9da8bcf6737aae1345e39ed7602b8494b2776b50fa7b665a4207ea1dab8:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022040cf3f854a7d831395bf84710415827cbb37aa6bda9f78b58250a7697ca6e306022100f8f4651edff039170b90baabffbbe3c444f7e34a09c1e19a3dc1a995389e1ee4:922c64590222798bb761d5b6d8e72950

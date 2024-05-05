@@ -7,14 +7,14 @@ info:
   description: TeamPass panel was detected.
   classification:
     cvss-metrics: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N
-    cvss-score: 0
     cwe-id: CWE-200
+    cpe: cpe:2.3:a:teampass:teampass:*:*:*:*:*:*:*:*
   metadata:
-    verified: true
     max-request: 2
+    product: teampass
     shodan-query: http.html:"teampass"
     vendor: teampass
-    product: teampass
+    verified: true
   tags: panel,teampass
 
 http:
@@ -36,4 +36,4 @@ http:
       - type: status
         status:
           - 200
-# digest: 4b0a00483046022100d589f78e20eeaf1311bd033ae885c19cf21914a4f61c5f4e6bf31b6fcf95e213022100f9da6f549933d57b284dc52eb027a7fe97ca232aabb5416a254f034251fb95dc:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100f0e02ce8b420ef39115b3ae808828dc778dfa6acf1d5d0664ac769fdeb3f2e6e022028772ecb74e850bed0479ebec92bce1b7c00609f3fab220531c95bbd673413f0:922c64590222798bb761d5b6d8e72950
